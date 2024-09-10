@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(17, 17, 17);
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    /* background-image: url('img/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+}
+
+body form {
+    border: 3px solid;
+    border-color: rgb(45 248 255);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 15px;
+    align-content: center;
+    margin: auto;
+    backdrop-filter: blur(3px);
+}
+
+body form h1 {
+    font-family: monospace;
+    font-size: 34px;
+    /* font-variant: small-caps; */
+}
+
+body form .subtitle {
+    font-family: ui-rounded;
+    font-size: 19px;
+}
+
+::placeholder {
+    text-align: center;
+    font-style: italic;
+    font-variant: normal;
+    font-size: 15px;
+}
+
+body form .submit_button {
+    border-radius: 15px;
+    width: 60%;
+    font-family: ui-rounded;
+    font-size: 15px;
+}
+
+body form input {
+    border-radius: 10px;
+    width: 80%;
+    margin: 10px;
+    text-align: center;
+    height: 27px;
+}
+
+body form hr {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    color: rgb(107 107 107);
+}
+
+body form .submit_button:hover {
+    background-color: #bfc0bf; /* Change to green on hover */
+}

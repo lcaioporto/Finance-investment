@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Financial calculator</title>
+        <link rel="stylesheet" href="static/style_form.css">
+    </head>
+
+    <body>
+        <form action="/submit" class="form" method="post">
+            <h1>Financial calculator</h1>
+            <hr>
+            <p class="subtitle">Please complete the form below</p>
+            <div class="input_texts">
+                <input id="initial_amount" name="initial_amount" type="number" placeholder="Initial amount" step="0.01" required><br/>
+                <input id="monthly_invest" name="monthly_invest" type="number" placeholder="Monthly investiment" step="0.01" required><br/>
+                <input id="tax" name="tax" type="number" placeholder="Annual profitability in %" step="0.01" required><br/>
+                <input id="desired_final_value" name="desired_final_value" type="number" placeholder="Target amount" step="0.01" required><br/>
+                <input id="years" name="years" type="number" placeholder="Investiment duration (years)" step="0.1" required><br/><br/>
+            </div>
+            <input type="submit" onclick="submitForm()" class="submit_button" value="Submit">
+        </form>
+    </body>
+    <script src="https://cdn.plot.ly/plotly-2.24.1.min.js"></script> <!-- Load Plotly.js from CDN -->
+    <script type="text/javascript" src="static/script.js"></script>
+</html>

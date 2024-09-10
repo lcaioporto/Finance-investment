@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(17, 17, 17);
+}
+
+body .text {
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
